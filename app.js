@@ -128,7 +128,7 @@ function generarHeader(data) {
 function Welcome(titulo) {
     const $h1 = document.getElementById('welcone');
     const propText = 'e';
-    $h1.innerHTML = `<h1 id="welcone">Bienvenid<strong class="prop">${propText}</strong> al <br> ${titulo}</h1>`;
+    $h1.innerHTML = `<h1 id="welcone">Bienvenid<strong class="prop">${propText}</strong> a <br> ${titulo}</h1>`;
     const propElements = $h1.querySelectorAll('.prop');
     let index = 0;
     function changePropText() {
