@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio de Reflexión TTNB+</title>
+    <meta name="description"
+        content="Este espacio está dirigido a la comunidad TTNB y Disidencias de todas las edades. Ofrece un lugar seguro para compartir experiencias, reflexionar sobre nuestras vivencias y, lo más importante, encontrar contención y herramientas para enfrentar los desafíos que se nos presentan.">
+    <meta name="author" content="LadyToxic"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/png">
+    <link href="https://api.fontshare.com/v2/css?f[]=public-sans@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+
+<body>
+    <!-- animacion de inicio -->
+    <div id="loader">
+        <img src="./assets/img/icon.png" class="contenedor fade-in">
+    </div>
+    <!-- El contenido de la pagina se generan dinamicamicamente desde App.js -->
+    <nav>
+        <button id="menu" aria-label="Abrir menú"><i class="ai-text-align-justified"></i></button>
+        <ul class="no-visible menu" id="menuList">
+        </ul>
+        <span id="fecha"></span>
+    </nav>
+    <header class="user" id="profile"></header>
+    <main>
+        <section class="articles">
+        </section>
+        <hr>
+        <section id="contacto">
+            <!-- formulario de contacto -->
+            <article>
+                <h2>¡Contactate, juntes somos poderoses!✨</h2>
+                <p>Por favor no dudes en expresar cualquier inquietud, ayuda que necesites, trataremos de asesorarte y
+                    brindarte la información necesaria. Esperamos contribuir a una retroalimentación positiva.</p>
+            </article>
+            <form id="ContactWhatsApp" class="form-contacto">
+                <input name="nombre" type="text" placeholder="Nombre" required aria-label="Campo de Texto nombre">
+                <select name="Pronombres" aria-label="pronombres">
+                    <option disabled selected>Pronombres</option>
+                    <option value="ella">(ella)</option>
+                    <option value="elle">(elle)</option>
+                    <option value="él">(él)</option>
+                    <option value="ella / elle">(ella / elle)</option>
+                    <option value="él / elle">(él / elle)</option>
+                    <option value="él / ella">(él / ella)</option>
+                    <option value="ella/él/elle">(ella / él / elle)</option>
+                </select>
+                <input name="email" type="email" placeholder="Email" required aria-label="Campo de email">
+                <input name="telefono" type="number" placeholder="Número de teléfono" required
+                    aria-label="Campo número de telefono">
+                <textarea name="mensaje" id="msg" placeholder="Mensaje" required
+                    aria-label="Campo de Texto mensaje"></textarea>
+                <input type="submit" value="Enviar" aria-label="botón enviar">
+            </form>
+        </section>
+        <!-- boton volver arriva -->
+        <button id="goToTopBtn" class="go-to-top-button" aria-label="Mover scroll al inicio de pagina"><i
+                class="ai-arrow-up"></i></button>
+    </main>
+    <footer>
+        <h4>Creado por LadyToxic | Todos los derechos reservados</h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
