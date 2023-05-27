@@ -1,20 +1,20 @@
 {
-    "titulo": "Espacio de Reflexión TTNB+",
-    "subtitulo": "Centro Cultural La Terraza (Longchamps)",
-    "banner": "./assets/img/banner.jpg",
-    "img": "./assets/img/552.jpg",
-    "descripcion": "Este espacio está dirigido a la comunidad TTNB y Disidencias de todas las edades. Ofrece un lugar seguro para compartir experiencias, reflexionar sobre nuestras vivencias y lo más importante encontrar contención y herramientas para enfrentar los desafíos que se nos presentan.",
+    "titulo": "Almendra Toxic",
+    "subtitulo": "Longchamps - Buenos Aires",
+    "banner": "https://i.postimg.cc/NG7jnnYr/IMG-20190917-165138-DRO.jpg",
+    "img": "https://avatars.githubusercontent.com/u/80841079?s=400&u=9267804677cf01718a6ac21ba65ef14a79b78de6&v=4",
+    "descripcion": "Programadora Front-End jr. & Ilustradora",
     "contacto": {
         "telefono": 5491162287249,
         "nombre": "Almendra"
     },
-    "instagram": "https://www.instagram.com/espacio_dereflexion",
-    "facebook": "https://www.facebook.com/profile.php?id=100083031925936&sk=about",
+    "instagram": "https://www.instagram.com/lady.toxic4",
+    "facebook": "https://www.facebook.com/",
     "articles": [
         {
             "id": "quienes_somos",
-            "title": "¿Quiénes Somos?",
-            "content": "Somos una iniciativa impulsada por Amazonas del Sur, la Secretaría de Extensión de la Universidad de Quilmes y el Centro Cultural La Terraza.",
+            "title": "Acerca de mi:",
+            "content": "Que puedo decir de mi... Solo que soy una pervertida",
             "img": [
                 "./assets/img/logo/logo-UNQ-Extension.webp",
                 "./assets/img/logo/Amazonas_del_sur.webp",
